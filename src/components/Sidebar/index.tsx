@@ -41,7 +41,10 @@ const menuGroups = [
         route: "#",
         children: [
           { label: "Sign In", route: "/admin/signin" },
+          { label: " Add User", route: "/admin/add" },
+          { label: " Add Site", route: "/admin/site" },
           { label: " Dashboard", route: "/admin/dashboard" },
+          { label: "Roles", route: "/admin/userroles" }
         ],
 
 
